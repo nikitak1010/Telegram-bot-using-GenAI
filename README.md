@@ -6,20 +6,20 @@
 
 Clone the repository
 
-'''bash
-Project repo: https://github.com/nikitak1010/Telegram-bot-using-GenAI.git/
-'''
+```bash
+Project repo: https://github.com/
+```
 ### STEP 01- Create a conda environment after opening the repository
 
-'''bash
+```bash
 conda create -n telebot python=3.8 -y
-'''
+```
 
-'''bash
+```bash
 conda activate telebot
-'''
+```
 
 ### STEP 02- install the requirements
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
