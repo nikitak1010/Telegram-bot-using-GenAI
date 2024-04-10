@@ -30,6 +30,7 @@ async def echo(message: types.Message):
         message (types.Message): __descriptions__
     """
     await message.reply(message.text )
+    #await message.reply("Got it!")
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
